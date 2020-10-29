@@ -1,19 +1,21 @@
 {
-  "name": "webpack-plugin-alias-jssconfig",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "webpack-plugin-alias-jsconfig",
+  "version": "1.0.1",
+  "description": "webpack plugin: auto convert resolve.alias to jsconfig.json or tsconfig.json",
+  "main": "webpack-plugin index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development"
   },
-  "keywords": [],
-  "author": "",
+  "files": ["webpack-plugin"],
+  "keywords": ["webpack plugin", "jsconfig.json", "alias"],
+  "author": "yuzai <a545905403@163.com> (http://blog.maxiaobo.com.cn/)",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^4.5.0",
     "webpack": "^5.3.0",
     "webpack-cli": "^4.1.0"
-  }
+  },
+  "repository": { "type": "git", "url": "https://github.com/yuzai/webpack-plugin-alias-jsconfig" }
 }

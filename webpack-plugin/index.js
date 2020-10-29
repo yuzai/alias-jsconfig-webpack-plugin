@@ -1,6 +1,17 @@
 const fs = require('fs');
 const path = require('path');
-const jsconfig = require('./template');
+
+const jsconfig = {
+    compilerOptions: {
+        jsx: 'react',
+        baseUrl: './',
+        paths: {
+        }
+    },
+    exclude: [
+        'node_modules',
+    ]
+}
 
 const promisify = fn => (...args) => new Promise((resolve, reject) => {
     args.push((err, data) => {
