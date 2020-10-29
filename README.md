@@ -9,7 +9,7 @@ npm i --save-dev webpack-plugin-alias-jsconfig
 in webpack.config.js:
 
 ```js
-const Alias = require('webpack-plugin-alias-jsconfig');
+const Alias = require('alias-jsconfig-webpack-plugin');
 
 // ...plugins
 export default {
