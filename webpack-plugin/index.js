@@ -21,7 +21,7 @@ const promisify = fn => (...args) => new Promise((resolve, reject) => {
     fn.apply(this, args);
 });
 
-function Test(options) {
+function Test(options = {}) {
     this.options = {
         ...options,
         indentation: 4,

@@ -1,8 +1,8 @@
 {
-  "name": "webpack-plugin-alias-jsconfig",
-  "version": "1.0.1",
+  "name": "alias-jsconfig-webpack-plugin",
+  "version": "1.0.0",
   "description": "webpack plugin: auto convert resolve.alias to jsconfig.json or tsconfig.json",
-  "main": "webpack-plugin index.js",
+  "main": "webpack-plugin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development"
