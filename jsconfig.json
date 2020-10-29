@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "baseUrl": "./",
+        "paths": {
+            "src": [
+                "src"
+            ],
+            "src/*": [
+                "src/*"
+            ],
+            "$config": [
+                "src/config"
+            ],
+            "$config/*": [
+                "src/config/*"
+            ],
+            "utils": [
+                "src/utils"
+            ],
+            "utils/*": [
+                "src/utils/*"
+            ],
+            "images": [
+                "src/images"
+            ],
+            "images/*": [
+                "src/images/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
