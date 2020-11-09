@@ -4,7 +4,9 @@ convert alias to jsconfig.json or tsconfig.json
 
 ## how to use
 
-npm i --save-dev webpack-plugin-alias-jsconfig
+```js
+npm i --save-dev alias-jsconfig-webpack-plugin
+```
 
 in webpack.config.js:
 

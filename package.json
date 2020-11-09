@@ -1,6 +1,6 @@
 {
   "name": "alias-jsconfig-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "webpack plugin: auto convert resolve.alias to jsconfig.json or tsconfig.json",
   "main": "webpack-plugin/index.js",
   "scripts": {
