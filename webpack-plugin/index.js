@@ -23,10 +23,10 @@ const promisify = fn => (...args) => new Promise((resolve, reject) => {
 
 function Test(options = {}) {
     this.options = {
-        ...options,
-        indentation: 4,
-        language: 'js',
-        jsx: true,
+      indentation: 4,
+      language: 'js',
+      jsx: true,
+      ...options,
     };
 }
 
